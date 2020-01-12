@@ -1,0 +1,9 @@
+.price {
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 2rem;
+}
