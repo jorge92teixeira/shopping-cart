@@ -18,7 +18,7 @@ const connectDB = async () => {
       useUnifiedTopology: true,
       useCreateIndex: true,
     });
-    console.log(`MongoDB connected - ${config.MONGODB_URI}`);
+    console.log('MongoDB connected - mongodb://127.0.0.1:27017/shopping-cart');
   } catch (error) {
     console.log(error.message);
     process.exit(1);
