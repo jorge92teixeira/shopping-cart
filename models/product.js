@@ -19,7 +19,7 @@ const ProductSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-PostSchema.set('toJSON', {
+ProductSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     delete returnedObject.__v;
   },
